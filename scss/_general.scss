@@ -1,0 +1,28 @@
+html{
+    box-sizing: border-box;
+}
+
+*,
+*::after,
+*::before{
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+body{
+    background: url(../img/manil.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 90vh;
+    font-style: normal;
+    font-size: 18px;
+    font-family: 'Fraunces', serif;
+    font-family: 'Barlow', sans-serif;
+}
+
+.container{
+    max-width: 1300px;
+    margin: auto;
+    padding: 0 30px;
+}
