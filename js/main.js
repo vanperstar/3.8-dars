@@ -19,8 +19,8 @@ function calculateTime(distance, speed) {
 	return hour + ' soat ' + minute + ' minut ' + second + 'secund';
 }
 
-elForm.addEventListener('submit', function (evt) {
-	evt.preventDefault();
+elForm.addEventListener('submit', function (event) {
+	event.preventDefault();
 
 	var distanceInput = Number(elDistanceInput.value.trim());
 
